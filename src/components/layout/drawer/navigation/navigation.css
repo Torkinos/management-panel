@@ -1,0 +1,52 @@
+.navigation {
+	display:  inline-block;
+	padding:  48px 0 12px;
+	width:    100%;
+	position: relative;
+}
+
+.linkContainer {
+	padding:    10px 0 10px 16px;
+	margin-top: 8px;
+	width:      100%;
+}
+
+.linkContainer:first-child {
+	margin-top: 0;
+}
+
+.linkContainer:hover {
+	background-color: #FFFFFF;
+}
+
+.link {
+	font-family:    Apercu, sans-serif;
+	line-height:    normal;
+	font-size:      0.875rem;
+	color:          #808B97;
+	text-transform: capitalize;
+}
+
+:global .drawerActive {
+	color: #FF5D47;
+}
+
+:global .drawerActive .icon {
+	fill: #FF5D47;
+}
+
+.icon {
+	vertical-align: middle;
+	margin-right:   8px;
+	color:          #808B97;
+}
+
+.border {
+	height:           1px;
+	width:            208px;
+	position:         absolute;
+	bottom:           0;
+	left:             50%;
+	transform:        translateX(-50%);
+	background-color: #DCDDE0;
+}

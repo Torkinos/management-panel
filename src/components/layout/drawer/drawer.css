@@ -1,0 +1,69 @@
+.drawer {
+	height:           auto;
+	min-height:       100%;
+	width:            240px;
+	background-color: #F7F7F8;
+	border-right:     1px solid #DCDDE0;
+	overflow:         hidden;
+	transition:       width 1s;
+}
+
+.drawerHide {
+	width: 0;
+}
+
+.drawerInner {
+	min-width: 200px;
+	width:     100%;
+	height:    100%;
+}
+
+.ball {
+	display:        inline-block;
+	width:          16px;
+	height:         16px;
+	background:     #ED56CC;
+	border-radius:  50%;
+	vertical-align: middle;
+	margin-right:   8px;
+}
+
+.titleContainer {
+	padding: 40px 0 0 16px;
+	cursor:  pointer;
+}
+
+.title {
+	display:        inline-block;
+	font-family:    Gilroy, sans-serif;
+	line-height:    normal;
+	font-size:      1rem;
+	color:          #2C3E4F;
+	vertical-align: middle;
+	text-transform: capitalize;
+}
+
+.triangle {
+	vertical-align: middle;
+	margin-left:    6px;
+}
+
+.hideContainer {
+	padding:    16px 0 10px 16px;
+	margin-top: 8px;
+	width:      100%;
+	cursor:     pointer;
+}
+
+.hideIcon {
+	vertical-align: middle;
+	margin-right:   8px;
+}
+
+.hide {
+	font-family:    Apercu, sans-serif;
+	line-height:    normal;
+	font-size:      0.875rem;
+	color:          #808B97;
+	text-transform: capitalize;
+}

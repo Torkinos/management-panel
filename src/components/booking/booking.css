@@ -1,0 +1,45 @@
+.booking {
+}
+
+.header {
+	margin:  24px;
+	display: inline-block;
+}
+
+.headerIcon {
+	margin-right:   16px;
+	vertical-align: middle;
+}
+
+.label {
+	display:  inline-block;
+	position: relative;
+}
+
+.labelText {
+	display:        inline-block;
+	font-family:    Apercu, sans-serif;
+	line-height:    normal;
+	font-size:      0.75rem;
+	color:          #808B97;
+	position:       absolute;
+	text-transform: capitalize;
+	top:            -4px;
+	transform:      translateY(-100%);
+}
+
+.input {
+	vertical-align:   middle;
+	height:           40px;
+	width:            552px;
+	font-family:      Apercu, sans-serif;
+	line-height:      20px;
+	font-size:        1.125rem;
+	color:            #1D2B38;
+	text-transform:   capitalize;
+	padding-left:     12px;
+	background-color: #F7F7F8;
+	border:           1px solid #DCDDE0;
+	box-sizing:       border-box;
+	border-radius:    3px;
+}

@@ -1,0 +1,83 @@
+.section {
+	width:      100%;
+	border-top: 1px solid #EBECF0;
+}
+
+.header {
+	width:            100%;
+	height:           72px;
+	position:         relative;
+	background-color: #FBFBFB;
+}
+
+.headerInner {
+	position:     absolute;
+	width:        100%;
+	top:          50%;
+	transform:    translateY(-50%);
+	padding-left: 16px;
+}
+
+.iconContainer {
+	display:          inline-block;
+	width:            40px;
+	height:           40px;
+	border-radius:    50%;
+	background-color: #F7F7F8;
+	position:         relative;
+	vertical-align:   middle;
+	transition:       background-color 1s;
+}
+
+.active {
+	background-color: #FF5D47;
+}
+
+.icon {
+	position:   absolute;
+	top:        50%;
+	left:       50%;
+	transform:  translate(-50%, -50%);
+	max-width:  32px;
+	max-height: 32px;
+}
+
+.textContainer {
+	display:        inline-block;
+	padding-left:   16px;
+	vertical-align: middle;
+}
+
+.title {
+	font-family:    Apercu, sans-serif;
+	line-height:    normal;
+	font-size:      1.125rem;
+	color:          #2C3E4F;
+	text-transform: capitalize;
+}
+
+.description {
+	font-family: Apercu, sans-serif;
+	line-height: normal;
+	font-size:   0.75rem;
+	color:       #808B97;
+}
+
+.toggle {
+	position:  absolute;
+	top:       50%;
+	right:     32px;
+	transform: translateY(-50%);
+	cursor:    pointer;
+}
+
+.body {
+	height:           208px;
+	width:            100%;
+	background-color: #FFFFFF;
+	transition:       height 1s;
+}
+
+.hidden {
+	height: 0;
+}

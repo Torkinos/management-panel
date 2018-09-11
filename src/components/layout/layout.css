@@ -1,0 +1,40 @@
+.layout {
+	display: flex;
+}
+
+.layoutInner {
+	display:          inline-block;
+	background-color: #F7F7F8;
+	flex-grow:        1;
+	height:           100%;
+	padding:          32px;
+}
+
+.titleContainer {
+	display: inline-block;
+	cursor:  pointer;
+}
+
+.arrow {
+	width:          32px;
+	height:         32px;
+	vertical-align: middle;
+}
+
+.title {
+	margin-left:    16px;
+	display:        inline-block;
+	font-family:    Apercu, sans-serif;
+	line-height:    normal;
+	font-size:      1.625rem;
+	color:          #2C3E4F;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+.content {
+	width:            100%;
+	margin-top:       24px;
+	background-color: #FFFFFF;
+	border-radius:    4px;
+}
